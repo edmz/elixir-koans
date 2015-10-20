@@ -2,12 +2,13 @@
 
 Koans.About_testing.start_exUnit!
 
-defmodule About_testing do
+defmodule About_maps do
   use FakeUnit.Case
   use Koans.About_testing
 
-  think "We shall contemplate truth by testing reality, via asserts." do
-    assert __?
+  think "size" do
+    %{}
+    assert 
   end
 
   think "When reality lie, we shall refute truth" do
